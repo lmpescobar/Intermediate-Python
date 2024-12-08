@@ -13,7 +13,7 @@ import pandas as pd
 
 # Cargar el dataset desde un archivo CSV
 # (Nota: el archivo 'cars.csv' debe estar en el mismo directorio que este script)
-cars = pd.read_csv('cars.csv', index_col=0)
+cars = pd.read_csv('C:/Intermediate Python/c03_Logic, Control Flow and Filtering/cars2.csv', index_col=0)
 
 # Paso 1: Extraer la columna `drives_right` como una Serie
 dr = cars["drives_right"]  # Extraer la columna como Pandas Series
